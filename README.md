@@ -11,7 +11,7 @@ What is this python script for?
 
 Here you get some example code to add a Raspberry Pi to Home Assistant (https://www.home-assistant.io/)
 
-'''
+```
 light:
   - platform: mqtt
     name: "LEDs"
@@ -22,4 +22,25 @@ light:
     payload_off: "OFF"
     optimistic: false
     retain: true
-'''
+```
+
+## Setup
+
+```
+sudo apt-get install python3
+```
+
+```
+pip install paho-mqtt
+```
+
+-Install raspberry-remote(https://github.com/xkonni/raspberry-remote)
+-Change the path of raspberry-remote in your code.
+-Change credentials and MQTT-Broker hostname.
+-Change your topics and codes to control RF Switches
+
+And now you're ready to execute the script
+
+```
+python mqttHandler.py
+```
