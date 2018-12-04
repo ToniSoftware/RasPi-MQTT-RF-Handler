@@ -34,10 +34,10 @@ sudo apt-get install python3
 pip install paho-mqtt
 ```
 
--Install raspberry-remote(https://github.com/xkonni/raspberry-remote)
--Change the path of raspberry-remote in your code.
--Change credentials and MQTT-Broker hostname.
--Change your topics and codes to control RF Switches
+- Install raspberry-remote(https://github.com/xkonni/raspberry-remote)
+- Change the path of raspberry-remote in your code.
+- Change credentials and MQTT-Broker hostname.
+- Change your topics and codes to control RF Switches
 
 And now you're ready to execute the script
 
